@@ -57,7 +57,7 @@ export const Navbar = () => {
             <button className="flex lg:hidden items-center">
               <img src="/images/logo.png" alt="Minka logo" />
               <h2 className="text-[24px] sm:text-[30px] sm:leading-[36px] text-[#1E0E62] font-medium tracking-[2px]">
-                Minka Health
+                Minka
               </h2>
             </button>
             <div className="lg:hidden">
