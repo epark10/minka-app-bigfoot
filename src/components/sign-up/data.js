@@ -95,15 +95,13 @@ export const commutes = [
   { value: "60", label: "60 Minutes" },
 ];
 export const socialPlatforms = [
-  {
-    "friend": "Friend",
-    "facebook": "Facebook",
-    "indeed/monster": "Indeed/Monster",
-    "instagram": "Instagram",
-    "reddit": "Reddit",
-    "referral": "Referral",
-    "school job board": "School Job Board",
-    "tiktok": "TikTok",
-    "other": "Other"
-  }
+  { "friend": "Friend" },
+  { "facebook": "Facebook" },
+  { "indeed/monster": "Indeed/Monster" },
+  { "instagram": "Instagram" },
+  { "reddit": "Reddit" },
+  { "referral": "Referral" },
+  { "school job board": "School Job Board" },
+  { "tiktok": "TikTok" },
+  { "other": "Other" }
 ];
