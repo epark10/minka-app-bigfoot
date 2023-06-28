@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.cus-text-color {
+  color: rgba(21, 20, 57, 0.4);
+}
+.cus-font {
+  font-family: "DM Sans";
+}
+.cus-ff-DmSana {
+  font-family: "DM Sans";
+}
+.clip-card {
+  clip-path: polygon(31% 12%, 81% 31%, 61% 89%, 9% 82%, 0% 38%);
+}
+.clip-card2 {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
