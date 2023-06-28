@@ -95,7 +95,14 @@ export const commutes = [
   { value: "60", label: "60 Minutes" },
 ];
 export const socialPlatforms = [
-  { value: "linkedIn", label: "LinkedIn" },
-  { value: "google", label: "Google" },
-  { value: "other", label: "Other" },
+  {
+    "facebook": "Facebook",
+    "indeed/monster": "Indeed/Monster",
+    "instagram": "Instagram",
+    "other": "Other",
+    "reddit": "Reddit",
+    "referral": "Referral",
+    "school job board": "School Job Board",
+    "tiktok": "TikTok"
+  }
 ];
