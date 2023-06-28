@@ -13,7 +13,7 @@ import Image from "next/image";
 
 const link = [
   { title: "Employers", link: "/" },
-  { title: "Candidates", link: "/candidates" },
+  { title: "Candidates", link: "/" },
   { title: "Programs", link: "/" },
 ];
 
@@ -70,7 +70,7 @@ export const Navbar = () => {
               className="hidden lg:flex items-center"
             >
               <img src="/images/logo.png" alt="Minka logo" />
-              <h2 className="text-[24px] sm:text-[30px] sm:leading-[36px] text-[#1E0E62] font-medium tracking-[2px]">
+              <h2 className="pl-1 text-[24px] sm:text-[30px] sm:leading-[36px] text-[#1E0E62] font-medium tracking-[2px]">
                 Minka
               </h2>
             </button>

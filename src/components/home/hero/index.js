@@ -21,11 +21,11 @@ export const Hero = () => {
               <button className="max-w-[285px] w-full py-[11px] font-[500] hover:bg-[#f93c3c] transition-all duration-150 ease-in-out bg-[#FF5757] rounded-[100px] md:text-[20px] leading-[26px] text-center text-[white]">
                 Get Started
               </button>
-              <button className="max-w-[285px] w-full ">
+              {/* <button className="max-w-[285px] w-full ">
                   <p className="text-[#FF5757] border-b-[2px] inline-block border-[#FFF8F8] transition-all duration-150 ease-in-out hover:border-[#FF5757] tracking-[-0.225px] md:text-[18px] leading-[26px]  font-[500]">
                     Learn more
                   </p>
-                </button>
+                </button> */}
             </div>
           </div>
         </div>
@@ -43,11 +43,11 @@ export const Hero = () => {
                 <button className="max-w-[285px] w-full py-[11px] font-[500] hover:bg-[#f93c3c] transition-all duration-150 ease-in-out bg-[#FF5757] rounded-[100px] md:text-[20px] leading-[26px] text-center text-[white]">
                   Get Started
                 </button>
-                <button className="max-w-[285px] w-full ">
+                {/* <button className="max-w-[285px] w-full ">
                   <p className="text-[#FF5757] border-b-[2px] inline-block border-[#FFF8F8] transition-all duration-150 ease-in-out hover:border-[#FF5757] tracking-[-0.225px] md:text-[18px] leading-[26px]  font-[500]">
                     Learn more
                   </p>
-                </button>
+                </button> */}
               </div>
             </div>
             <div className="w-full md:w-[60%] mt-[25px] md:mt-0">
