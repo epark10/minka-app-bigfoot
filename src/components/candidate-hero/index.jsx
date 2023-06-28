@@ -11,12 +11,14 @@ export const CandidateHero = () => {
           Minka helps you find the job you want with the skills you need
         </p>
         <div className="justify-center flex mt-[42px]">
-          <button className="max-w-[285px] w-full py-[11px] font-[500] bg-[#FF5757] rounded-[100px] md:text-[20px] leading-[26px] text-center text-[white]">
-            Get Started
-          </button>
-          <button className="max-w-[285px] w-full text-[#FF5757] tracking-[-0.225px] md:text-[18px] leading-[26px]  font-[500]">
+          <a href="/sign-in">
+            <button className="max-w-[285px] w-full py-[11px] font-[500] bg-[#FF5757] rounded-[100px] md:text-[20px] leading-[26px] text-center text-[white]">
+              Get Started
+            </button>
+          </a>
+          {/* <button className="max-w-[285px] w-full text-[#FF5757] tracking-[-0.225px] md:text-[18px] leading-[26px]  font-[500]">
             Learn more
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
