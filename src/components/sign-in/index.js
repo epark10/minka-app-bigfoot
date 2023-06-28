@@ -40,7 +40,7 @@ export const SignIn = () => {
         }
       })
       .catch((error) => {
-        console.log("error.code--------",error.code)
+        console.log("error.code--------", error.code)
         toast.error(ERROR_BY_CODE[error.code]);
         const errorCode = error.code;
         const errorMessage = error.message;
@@ -76,7 +76,7 @@ export const SignIn = () => {
     <div className="bg-[#ff57570a] bg-opacity-40 min-h-screen flex justify-center items-center p-5">
       <div className="inline-flex flex-col space-y- items-center  bg-white rounded-[10px] px-[50px] md:px-[100px] pt-[60px] pb-[21.6px] max-w-[570px] shadow-md">
         <h1 className="font-[700] text-[42px] leading-[56px] text-center tracking-[-0.4px] text-[#1E0E62]">
-          Sign In
+          Welcome Back to Minka
         </h1>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="mt-[50px] ">
