@@ -96,13 +96,14 @@ export const commutes = [
 ];
 export const socialPlatforms = [
   {
+    "friend": "Friend",
     "facebook": "Facebook",
     "indeed/monster": "Indeed/Monster",
     "instagram": "Instagram",
-    "other": "Other",
     "reddit": "Reddit",
     "referral": "Referral",
     "school job board": "School Job Board",
-    "tiktok": "TikTok"
+    "tiktok": "TikTok",
+    "other": "Other"
   }
 ];
