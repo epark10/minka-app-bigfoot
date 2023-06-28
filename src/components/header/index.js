@@ -12,9 +12,9 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 
 const link = [
-  { title: "Employer", link: "/" },
-  { title: "candidates", link: "/candidates" },
-  { title: "programer", link: "/" },
+  { title: "Employers", link: "/" },
+  { title: "Candidates", link: "/" },
+  { title: "Programs", link: "/" },
 ];
 
 export const Navbar = () => {
@@ -71,7 +71,7 @@ export const Navbar = () => {
             >
               <img src="/images/logo.png" alt="Minka logo" />
               <h2 className="text-[24px] sm:text-[30px] sm:leading-[36px] text-[#1E0E62] font-medium tracking-[2px]">
-                Minka Health
+                Minka
               </h2>
             </button>
             {!user || !Object.keys(user)?.length ? (
