@@ -7,7 +7,7 @@ import LayoutProvider from "@/components/layout-provider";
 
 export const metadata = {
   title: "Minka",
-  description: "",
+  description: "The new way healthcare professionals get hired",
 };
 
 export default function RootLayout({ children }) {
